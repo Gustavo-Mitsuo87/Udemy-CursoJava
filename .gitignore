@@ -20,6 +20,10 @@ bin/
 
 # --- IDE (VS Code) ---
 .vscode/
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/settings.json
+.vscode/extensions.json
 
 # --- IDE (IntelliJ/Eclipse) ---
 .idea/
