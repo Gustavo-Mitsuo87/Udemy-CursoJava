@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class ProdutoPreferido {
     /*
-    Uso do while para a contagem dos produtos (alcool, gasolina e diesel).
-    Use of while for counting the products (alcohol, gasoline, and diesel).
+    Implementa uma estrutura de repetição para validar 
+    entradas e incrementar contadores específicos para álcool, gasolina e diesel. 
+    Implement a loop structure to validate inputs and increment specific counters 
+    for alcohol, gasoline, and diesel.   
     */
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -31,6 +32,6 @@ public class ProdutoPreferido {
         System.out.println("Alcool: " + alcool);
         System.out.println("Gasolina: " + gasolina);
         System.out.println("Diesel: " + diesel);
-        sc.close();
+
     }
 }
